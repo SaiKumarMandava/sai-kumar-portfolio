@@ -5,6 +5,7 @@ import { FaRegCircle } from "react-icons/fa";
 import { PiRectangleDashedThin } from "react-icons/pi";
 import { LuRectangleVertical } from "react-icons/lu";
 import { BsCircle } from "react-icons/bs";
+import Profile from '../../assets/profile.jpg'
 const HeroPic = () => {
   return (
     <motion.div
@@ -15,8 +16,8 @@ const HeroPic = () => {
       className=" h-full flex items-center justify-center py-16"
     >
       <img
-        src="../../public/images/profile.jpg"
-        alt="Abdelrahman Qassem"
+        src={Profile}
+        alt="Mandava Sai Kumar"
         className="max-h-[390px] w-auto rounded-full"
       /> 
 
