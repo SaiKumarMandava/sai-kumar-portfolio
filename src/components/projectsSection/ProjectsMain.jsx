@@ -2,41 +2,47 @@ import ProjectsText from "./ProjectsText";
 import SingleProject from "./SingleProject";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
+import Web1 from '../../assets/website-img-1.jpg'
+import Web2 from '../../assets/website-img-2.webp'
+import Web3 from '../../assets/website-img-3.jpg'
+import Web4 from '../../assets/website-img-4.jpg'
+
 
 const projects = [
   {
     name: "Modular Homes Estimation & 3D Visualization",
     year: "May2023",
     align: "right",
-    image: "../../public/images/website-img-1.jpg",
+    image: Web1,
     link: "#",
   },
   {
     name: "Learning Minds",
     year: "Nov2023",
     align: "left",
-    image: "../../public/images/website-img-2.webp",
+    image: Web2,
+
     link: "#",
   },
   {
     name: "Total Connect",
     year: "Jan2024",
     align: "right",
-    image: "../../public/images/website-img-3.jpg",
+    image: Web3,
     link: "#",
   },
   {
     name: "Resume Selling",
     year: "July2024",
     align: "left",
-    image: "../../public/images/website-img-4.jpg",
+    image: Web4,
     link: "#",
   },
   {
     name: "Coders Fashion",
     year: "October2024",
     align: "right",
-    image: "../../public/images/website-img-4.jpg",
+     image: Web4,
     link: "#",
   },
 ];
