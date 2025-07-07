@@ -20,7 +20,7 @@ const FooterMain = () => {
     },
   ];
   return (
-    <div className="px-4">
+    <div className="px-4 py-4">
       <div className="w-full h-[1px] bg-lightGrey mt-24"></div>
       <div className="md:flex justify-between mt-4 max-w-[1200px] mx-auto sm:hidden">
         <p className="text-3xl text-lightGrey ">Mandava Sai Kumar</p>
@@ -43,9 +43,9 @@ const FooterMain = () => {
           })}
         </ul>
       </div>
-      <p className="max-w-[1200px] mx-auto text-right mt-2 mb-12 text-sm text-lightBrown">
-        © 2024 Mandava Sai Kumar | All Rights Reserved.
-      </p>
+      {/* <p className="max-w-[1200px] mx-auto text-right mt-2 mb-12 text-sm text-lightBrown">
+        © 2025 Mandava Sai Kumar | All Rights Reserved.
+      </p> */}
     </div>
   );
 };
